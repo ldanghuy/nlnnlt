@@ -1,5 +1,4 @@
-// Lap3.4.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 
 #include <iostream>
 using namespace std;
@@ -8,7 +7,7 @@ int main() {
     double number, smallest = 0;
     int count = 0;
 
-    cout << "Nhap s? th?c (nhap 0 de ket thúc): ";
+    cout << "Nhap so thuc (nhap 0 de ket thúc): ";
     cin >> number;
 
     while (number != 0) {
