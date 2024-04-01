@@ -1,5 +1,4 @@
-﻿// Lap3.2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 
 #include <iostream>
 
@@ -27,7 +26,7 @@ int main() {
         cout << n << " la so nguyen to!" << endl;
     }
     else {
-        cout << n << " khong là so nguyen to!" << endl;
+        cout << n << " khong la so nguyen to!" << endl;
     }
 
     return 0;
