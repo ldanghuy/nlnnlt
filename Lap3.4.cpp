@@ -8,23 +8,23 @@ int main() {
     double number, smallest = 0;
     int count = 0;
 
-    cout << "Nh?p s? th?c (nh?p 0 ?? k?t thúc): ";
+    cout << "Nhap s? th?c (nhap 0 de ket thÃºc): ";
     cin >> number;
 
     while (number != 0) {
-        count++; // T?ng s? l??ng s? th?c ?ã nh?p
+        count++; 
 
         if (count == 1 || number < smallest) {
-            // C?p nh?t s? th?c nh? nh?t
+            
             smallest = number;
         }
 
-        cout << "Nh?p s? th?c (nh?p 0 ?? k?t thúc): ";
+        cout << "Nhap so thuc (nhap 0 de ket thuc): ";
         cin >> number;
     }
 
-    cout << "S? l??ng s? th?c ?ã nh?p: " << count << endl;
-    cout << "S? th?c nh? nh?t: " << smallest << endl;
+    cout << "So luong so thuc da nhap: " << count << endl;
+    cout << "So thuc nho nhat: " << smallest << endl;
 
     return 0;
 }
