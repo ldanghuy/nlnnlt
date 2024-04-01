@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Hàm kiểm tra số nguyên tố
 bool IsPrime(int x) {
     if (x < 2) {
         return false;
